@@ -1,4 +1,19 @@
-.titel{
+header{
     text-align: center;
-    padding-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.topimg{
+    position: absolute;
+    left: 45%;
+    right: 45%;
+    width: 10%;
+    height: 120px; 
+}
+.backimg{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
 }

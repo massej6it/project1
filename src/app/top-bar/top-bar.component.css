@@ -2,21 +2,28 @@ nav{
     background-color: skyblue;
     padding: 10px;
 }
-nav img{
-    width: 70px;
-}
 nav ul{
-    float: right;
+    float: center;
     list-style-type: none;
 }
 ul li{
     display: inline-block;
     padding: 0px;
-    padding-right: 100px;
+    padding-left: 11%;
+    padding-right: 7%;
 }
 li a{
     color:#FFF;
     text-decoration: none;
     cursor: pointer;
-    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
 }
+li a:hover{
+    background-color:#00ace6;
+}
+  
