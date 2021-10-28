@@ -1,6 +1,7 @@
 nav{
     background-color: skyblue;
     padding: 10px;
+    position: sticky;
 }
 nav ul{
     float: center;
@@ -10,7 +11,7 @@ ul li{
     display: inline-block;
     padding: 0px;
     padding-left: 11%;
-    padding-right: 7%;
+    padding-right: 1%;
 }
 li a{
     color:#FFF;
@@ -26,4 +27,5 @@ li a{
 li a:hover{
     background-color:#00ace6;
 }
+
   
