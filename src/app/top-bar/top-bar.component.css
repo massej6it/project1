@@ -1,7 +1,29 @@
+#mainMenu li{
+    position: relative;
+}
+
+#mainMenu li ul {
+    display: none;
+    margin:0px;
+	padding:0px;
+	left:-3px;
+	top:22px;
+    position: absolute;
+}
+#mainMenu li ul li {
+	width:150px;
+	font-size:smaller;
+	border-top:none;
+}
+#mainMenu li ul li:first-child {
+	border-top:1px solid #000;
+}
+#mainMenu li:hover ul {
+	display:block;
+}
 nav{
     background-color: skyblue;
     padding: 10px;
-    position: sticky;
 }
 nav ul{
     float: center;
@@ -27,5 +49,6 @@ li a{
 li a:hover{
     background-color:#00ace6;
 }
+
 
   
