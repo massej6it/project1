@@ -1,53 +1,58 @@
-#mainMenu li{
-    position: relative;
-}
 
+nav{
+    background-color: skyblue;
+    padding: 10px;
+    text-align: center;
+}
+#mainMenu {
+	margin:10px;
+
+	font-family: sans-serif;
+}
+#mainMenu li {
+	position:relative;display:inline-block;
+	width:220px;
+	margin-left:25px;
+	border:1px solid #4D23F4;
+    
+
+}
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:skyblue;
+	color:#4D23F4;
+    font-weight: 400;
+
+}
+#mainMenu a:hover {
+	background-color: #00ace6;
+	color:#fff;
+    font-weight: 700;
+}
 #mainMenu li ul {
-    display: none;
-    margin:0px;
+	position:absolute;
+	margin:0px;
 	padding:0px;
 	left:-3px;
 	top:22px;
-    position: absolute;
+	display:none;
 }
 #mainMenu li ul li {
 	width:150px;
 	font-size:smaller;
 	border-top:none;
+    float: left;
+    margin-left: 2px;
+    margin-top: 0px;
 }
 #mainMenu li ul li:first-child {
 	border-top:1px solid #000;
+
 }
 #mainMenu li:hover ul {
 	display:block;
-}
-nav{
-    background-color: skyblue;
-    padding: 10px;
-}
-nav ul{
-    float: center;
-    list-style-type: none;
-}
-ul li{
-    display: inline-block;
-    padding: 0px;
-    padding-left: 11%;
-    padding-right: 1%;
-}
-li a{
-    color:#FFF;
-    text-decoration: none;
-    cursor: pointer;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-weight: bold;
-}
-li a:hover{
-    background-color:#00ace6;
 }
 
 
