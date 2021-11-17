@@ -1,6 +1,6 @@
 body{
-    padding: 0px;
-    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .a1{
@@ -8,4 +8,13 @@ body{
 }
 .Wat{
     text-align: center;
+}
+.p2{
+    float: left;
+}
+.policia{
+    float: right;
+    width: 20%;
+    height: 20;
+    padding-right: 50px;
 }
